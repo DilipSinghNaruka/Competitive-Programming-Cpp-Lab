@@ -13,7 +13,9 @@ bool Prime(int n){
 }
 
 int main(){
-    int n = 3;
+    int n ;
+    cout<<"Enter a Number :- ";
+    cin>>n;
     if(Prime(n)){
         cout<<"this is not prime number";
     }else{

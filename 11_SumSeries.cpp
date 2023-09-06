@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <math.h>
 using namespace std;
 
 int main() {
@@ -10,7 +10,7 @@ int main() {
   cin >> n;
 
   for (int i = 1; i <= n; i++) {
-    sum += (double)(i * i) / i;
+    sum += (double) pow(i,i) / i;
   }
 
   cout << "The sum of the series is: " << sum << endl;
